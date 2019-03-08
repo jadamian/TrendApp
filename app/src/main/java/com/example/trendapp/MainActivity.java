@@ -1,14 +1,11 @@
 package com.example.trendapp;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
-import android.widget.CompoundButton;
-import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 
@@ -24,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
         postList = new ArrayList<>(posts.getPosts());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //display link
+        post = (WebView) findViewById(R.id.webView);
+        post.loadUrl(postList.get(currentPost).getUrl());
         setButtons();
     }
 
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private Button disLike;
     private Button share;
     private Button feedSwitch;
+    private WebView post;
 
     private void setButtons(){
         //next and prev functions
@@ -86,5 +87,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, HomeActivity.class));
             }
         });
+    }
+
+    public void displayLink(){
+        post.loadUrl(postList.get(currentPost).getUrl());
     }
 }

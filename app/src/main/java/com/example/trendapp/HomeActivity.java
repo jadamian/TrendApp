@@ -12,7 +12,7 @@ import android.widget.ToggleButton;
 public class HomeActivity extends AppCompatActivity {
 
     //buttons
-    private Button left;
+    private Button next;
     private Button prev;
     private Button like;
     private Button disLike;
@@ -26,6 +26,45 @@ public class HomeActivity extends AppCompatActivity {
         setUpButtons();
     }
     public void setUpButtons(){
+        //next and prev
+        next = (Button) findViewById(R.id.homeNext);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        prev = (Button) findViewById(R.id.homePrev);
+        prev.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        //interaction buttons
+        like = (Button) findViewById(R.id.homeLike);
+        like.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        disLike = (Button) findViewById(R.id.homeDis);
+        disLike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        share = (Button) findViewById(R.id.homeShare);
+        disLike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        //to personal
         feedSwitch = (Button) findViewById(R.id.personalFeed);
         feedSwitch.setOnClickListener(new View.OnClickListener() {
             @Override
