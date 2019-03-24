@@ -93,3 +93,5 @@ public class MainActivity extends AppCompatActivity {
         post.loadUrl(postList.get(currentPost).getUrl());
     }
 }
+
+
