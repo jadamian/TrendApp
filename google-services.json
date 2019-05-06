@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "694362181540",
+    "firebase_url": "https://trendapp-8f382.firebaseio.com",
+    "project_id": "trendapp-8f382",
+    "storage_bucket": "trendapp-8f382.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694362181540:android:b4ad6cf1226ed343",
+        "android_client_info": {
+          "package_name": "com.example.trendapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694362181540-h8i9clo2r1ovl4o6ulr9vhg5vqripme6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trendapp",
+            "certificate_hash": "cec08059aa2281e088cbb24696213b61cfc3e512"
+          }
+        },
+        {
+          "client_id": "694362181540-klrtnfqtpvjgt5gc99i52a2bmftgtjkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPR6Ybod6EaDrE0s8YBOSgxJqc1lLpiMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694362181540-klrtnfqtpvjgt5gc99i52a2bmftgtjkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
