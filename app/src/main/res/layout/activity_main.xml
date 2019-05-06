@@ -44,7 +44,7 @@
     <WebView
         android:id="@+id/webView"
         android:layout_width="302dp"
-        android:layout_height="241dp"
+        android:layout_height="238dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="48dp"
@@ -56,7 +56,7 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.036" />
 
     <Button
         android:id="@+id/shareButton"
